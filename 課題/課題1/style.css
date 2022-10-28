@@ -65,57 +65,29 @@ footer {
   background-color: #aaa;
 }
 
-@media screen and (max-width:768px) {
-  header {
-    width: 100%;
-    height: 50px;
-    background-color: #ff9a4b;
-  }
+@media screen and (max-width:768px){
+ header{
+   height: 50px;
+ }
 
-  main {
-  width:100%;
-  margin:5%;
-  display: block;
-  }
+ main{
+   width: 100%;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   display: block;
+ }
 
-  .step-box {
-  width: 90%;
-  margin-right: 30px;
-  padding: 10px;
-  position: relative;
-  background-color: #eee;
-  }
+ .step-box{
+   width: 90%;
+   position: center;
+   margin-right: auto;
+   margin-left: auto;
+   margin-bottom: 20px;
 
-  .step-img1 {
-  height: 150px;
-  width: 90%;
-  margin-top: 50px;
-  background-image: url(img/flow01.png);
-  background-position: bottom;
-  background-size: cover;
-  }
+ }
 
-   .step-img2 {
-  height: 150px;
-  width: 90%;
-  margin-top: 20px;
-  background-image: url(img/flow02.png);
-  background-position: bottom;
-  background-size: cover;
-   }
+ .step-box:last-child {
+  margin: auto;
+}
 
-   .step-img3 {
-  height: 150px;
-  width: 90%;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  background-image: url(img/flow03.png);
-  background-position: bottom;
-  background-size:cover;
-   }
-
-   footer {
-  height: 50px;
-  background-color: #aaa;
-   }
 }
